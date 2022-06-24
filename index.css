@@ -6,8 +6,9 @@
   body{
     text-align: center;
     align-content: center;
+    font-family: 'Quicksand', sans-serif;
   }
-.box{
+.pad{
     height: auto;
     width: 415px;
     display:inline-block;
@@ -16,7 +17,7 @@
     
 }
 
-.box1{
+.box{
     float: left;
     display: block;
     height: 60px;

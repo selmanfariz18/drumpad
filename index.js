@@ -1,5 +1,5 @@
-function run(link){
-    let song=new Audio(link);
-    Audio.load();
-    Audio.play();
+function play(link) {
+    let audio = new Audio(link);
+    audio.load();
+    audio.play();
 }
