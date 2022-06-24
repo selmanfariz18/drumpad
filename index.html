@@ -6,55 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drum pad</title>
     <link rel="stylesheet" href="index.css"> 
+    
 </head>
 <body>
     <h1>DRUM PAD</h1>
     <div class="box">
+        
         <div class="box1">
-            <div class="card">
+            <div class="card" oneclick="play(https://s3-us-west-2.amazonaws.com/s.cdpn.io/242518/SD0025.mp3)">
                 click
             </div>
         </div>
         <div class="box1">
-            <div class="card">
+            <div class="card" oneclick="play()">
                 click
             </div>
         </div>
         <div class="box1">
-            <div class="card">
+            <div class="card" oneclick="play()">
                 click
             </div>
         </div>
         <div class="box1">
-            <div class="card">
+            <div class="card" oneclick="play()">
                 click
             </div>
         </div>
         <div class="box1">
-            <div class="card">
+            <div class="card" oneclick="play()">
                 click
             </div>
         </div>
         <div class="box1">
-            <div class="card">
+            <div class="card" oneclick="play()">
                 click
             </div>
         </div>
         <div class="box1">
-            <div class="card">
+            <div class="card" oneclick="play()">
                 click
             </div>
         </div>
         <div class="box1">
-            <div class="card">
+            <div class="card" oneclick="play()">
                 click
             </div>
         </div>
         <div class="box1">
-            <div class="card">
+            <div class="card" oneclick="play()">
                 click
             </div>
-        </div>        
+        </div>
+              
     </div>
+
+    <script>
+        function run(link){
+            let song=new Audio(link);
+            Audio.load();
+            Audio.play();
+        }
+    </script>
 </body>
 </html>
